@@ -8,6 +8,9 @@ export default function Page() {
       <li>
         <Link href="/week-2">Week 2 Demos</Link>
       </li>
+      <li>
+        <Link href="/week-3">Week 3 Demos</Link>
+      </li>
     </div>
   );
 }
