@@ -16,7 +16,7 @@ export default function Page() {
                 {user ? (
                     <div>
                     <button onClick={firebaseSignOut}>Sign Out</button><br/>
-                    <Link href="./secure/page.js">Secure Page</Link>
+                    <Link href="./secure/">Secure Page</Link>
                     </div>) : 
                     (
                         <button onClick={gitHubSignIn}>Sign in with Github</button>
