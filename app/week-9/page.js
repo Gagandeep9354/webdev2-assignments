@@ -14,11 +14,14 @@ export default function Page() {
             <p>
                 {user ? (
                     <div>
-                    <button onClick={firebaseSignOut}>Sign Out</button><br/>
-                    <a href="/week-9/secure">Secure Page</a>
+                        <button onClick={firebaseSignOut}>Sign Out</button><br/>
+                        <a href="/week-9/secure">Secure Page</a>
                     </div>) : 
                     (
-                        <button onClick={gitHubSignIn}>Sign in with Github</button>
+                        <div>
+                            <button onClick={gitHubSignIn}>Sign in with Github</button>
+                            <a href="/week-9/secure">Secure page</a>
+                        </div>
                     )
                 }
             </p>
