@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useUserAuth } from "./_utils/auth-context";
 
 export default function Page() {
@@ -16,7 +15,7 @@ export default function Page() {
                 {user ? (
                     <div>
                     <button onClick={firebaseSignOut}>Sign Out</button><br/>
-                    <Link href="./secure/">Secure Page</Link>
+                    <a href="/week-9/secure">Secure Page</a>
                     </div>) : 
                     (
                         <button onClick={gitHubSignIn}>Sign in with Github</button>
